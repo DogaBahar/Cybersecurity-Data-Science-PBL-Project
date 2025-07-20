@@ -53,19 +53,7 @@ This project explores automated detection of vulnerable code snippets using mach
 
 ---
 
-## Evaluation
 
-| Metric      | Vulnerable (1) | Non-Vulnerable (0) |
-|-------------|----------------|---------------------|
-| Precision   | Low            | High                |
-| Recall      | Low            | High                |
-| F1-Score    | Low            | High                |
-| ROC AUC     | 0.58           | —                   |
-
-- The model struggled to classify vulnerable code correctly, likely due to:
-  - Class imbalance
-  - Noisy data
-  - Simplicity of MLP model
 
 
 
